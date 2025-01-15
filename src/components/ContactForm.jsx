@@ -47,6 +47,7 @@ function ContactForm() {
       alert("Form Submitted Successfully!");
       setFormData({ name: "", email: "" }); // Clear form
       setErrors({});
+      window.location.reload()
     }
   };
   useEffect(() => {
