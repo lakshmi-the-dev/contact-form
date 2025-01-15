@@ -98,7 +98,7 @@ function ContactForm() {
         </button>
       </form>
       <ul className="list-group">
-        {data.map((contact) => (
+        {data?.map((contact) => (
           <li
             className="list-group-item d-flex justify-content-between align-items-left p-3"
             key={contact.name}
